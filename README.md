@@ -29,21 +29,22 @@ This project focuses on developing a predictive model to forecast sales for diff
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[Your GitHub Username]/[Your Repository Name].git
-    cd [Your Repository Name]
+    https://github.com/Abhinav-Marlingaplar/Big-Mart-Sales-Prediction.git
+    cd Big-Mart-Sales-Prediction
     ```
 
-2.  **Install required libraries:**
+2.  **Install required libraries manually:**
+
+    This project relies on the following Python libraries. Please ensure you have them installed in your environment. You can install them using pip:
+
     ```bash
-    pip install -r requirements.txt
+    pip install pandas numpy xgboost scikit-learn matplotlib seaborn jupyter
     ```
-    *(You might need to create a `requirements.txt` file listing the dependencies. You can generate this using `pip freeze > requirements.txt` in your project environment.)*
 
 3.  **Run the Jupyter Notebook:**
     ```bash
     jupyter notebook BigMartSalesPrediction.ipynb
     ```
-    *(Replace `BigMartSalesPrediction.ipynb` with the actual name of your notebook file.)*
 
 ## Usage
 
@@ -51,7 +52,7 @@ The Jupyter Notebook (`BigMartSalesPrediction.ipynb`) contains the complete end-
 
 ## Results
 
-The final evaluation of the XGBoost Regressor model on the test dataset yielded an R-squared ($R^2$) score of approximately [**Insert your actual R-squared score here**]. This indicates [**Provide a brief interpretation of your R-squared score, e.g., the proportion of variance explained by the model**].
+The final evaluation of the XGBoost Regressor model on the test dataset yielded an R-squared ($R^2$) score of approximately **0.614**. This indicates that the model explains about 61.4% of the variance in the Big Mart sales based on the features provided. While this represents a reasonable level of predictive power, further efforts in feature engineering and hyperparameter tuning could potentially lead to improved accuracy. The model also achieved an R-squared score of approximately 0.632 on the training dataset.
 
 ## Future Work
 
@@ -67,4 +68,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Author
 
-[**Your Name**]
+Abhinav Marlingaplar
