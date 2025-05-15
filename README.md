@@ -43,12 +43,16 @@ This project focuses on developing a predictive model to forecast sales for diff
 
 3.  **Run the Jupyter Notebook:**
     ```bash
-    jupyter notebook BigMartSalesPrediction.ipynb
+    jupyter notebook
     ```
+
+4.  **Open the notebook:**
+    * Jupyter Notebook will open in your default web browser. You will see a list of files and folders.
+    * Navigate to folder `Sales_Prediction` and open the notebook file named `Big_Mart_Sales_Prediction.ipynb`.
 
 ## Usage
 
-The Jupyter Notebook (`BigMartSalesPrediction.ipynb`) contains the complete end-to-end workflow of the project, including data loading, preprocessing, model training, and evaluation. Simply run the cells in the notebook sequentially to reproduce the results.
+The Jupyter Notebook (`Big_Mart_Sales_Prediction.ipynb`) contains the complete end-to-end workflow of the project, including data loading, preprocessing, model training, and evaluation. Simply run the cells in the notebook sequentially to reproduce the results.
 
 ## Results
 
